@@ -1,0 +1,22 @@
+header{
+    grid-area: head;
+}
+
+.main{
+    grid-area: base;
+}
+
+footer{
+    grid-area: foot;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+                "head head head head head head"
+                "base base base base base base"
+                "foot foot foot foot foot foot";
+
+    grid-template-rows: 60px auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

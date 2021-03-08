@@ -1,0 +1,11 @@
+
+@mixin center(){
+    
+    $margin-center: auto;
+    $width-center: 60%;
+    $padding-center: 10px;
+
+    margin: $margin-center;
+    width: $width-center;
+    padding: $padding-center;
+}
