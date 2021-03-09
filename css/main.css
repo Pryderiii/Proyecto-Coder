@@ -17,7 +17,7 @@ footer {
   margin: auto;
   width: 60%;
   padding: 10px;
-  border-width: 5px;
+  border-width: .3em;
   border-style: groove;
   background-color: #c90f0f; }
   .main-container-grid header .header__menu {
@@ -25,16 +25,15 @@ footer {
     display: flex;
     flex-direction: row; }
     .main-container-grid header .header__menu .header__menu--icon {
-      height: 30px;
-      width: 45px;
-      padding-right: 15px; }
+      height: 2.7em;
+      width: 2.7em; }
     .main-container-grid header .header__menu .header__menu--a {
       color: #000000;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 1.3em;
       font-weight: bold;
-      padding-right: 16px;
-      padding-left: 16px;
+      padding-right: 1.5em;
+      padding-left: 1.5em;
       display: block; }
     .main-container-grid header .header__menu .header__menu--a:hover {
       background-color: #ffffff;
@@ -54,8 +53,8 @@ footer {
   .main-container-grid .list-table ol {
     list-style: none; }
   .main-container-grid .list-table .list-table--sprite {
-    width: 50px;
-    height: 50px; }
+    width: 4em;
+    height: 4em; }
 
 .main-container-grid .news-container {
   display: flex;
@@ -77,7 +76,7 @@ footer {
   width: 60%;
   padding: 10px;
   background-color: #ffffff;
-  border-width: 5px;
+  border-width: .3em;
   border-style: groove;
   display: flex;
   font-size: 1em;
@@ -85,11 +84,11 @@ footer {
   .main-container-grid .main .main__h1 {
     border-bottom: #000000;
     border-bottom-style: ridge;
-    border-width: 3px; }
+    border-width: .3em; }
   .main-container-grid .main .main__paragraph {
     border-bottom: #000000;
     border-bottom-style: ridge;
-    border-width: 3px;
+    border-width: .3em;
     text-align: left; }
     .main-container-grid .main .main__paragraph h1 {
       font-size: Medium; }
@@ -101,16 +100,15 @@ footer {
     .main-container-grid .main .main__front .main__front--img {
       position: relative;
       width: 100%;
-      height: 500px;
-      padding: 5px 5px 5px 5px;
-      border-color: black;
-      border-width: 2px; }
+      height: 40em;
+      padding: .5em .5em .5em .5em; }
     .main-container-grid .main .main__front .main__front--top-left {
       position: absolute;
       float: left;
       width: 50%;
       text-align: left;
-      padding-left: 10px;
+      padding-left: 1em;
+      padding-top: 3em;
       font-size: medium;
       font-weight: bold; }
   .main-container-grid .main .main__splitted {
@@ -119,44 +117,47 @@ footer {
     .main-container-grid .main .main__splitted .main__splitted--child-left {
       width: 50%;
       background-color: #ffffff;
-      border-width: 5px;
+      border-width: .3em;
       border-style: groove;
       margin-right: auto;
       text-align: left; }
     .main-container-grid .main .main__splitted .main__splitted--child-right {
       width: 50%;
       background-color: #ffffff;
-      border-width: 5px;
+      border-width: .3em;
       border-style: groove;
       margin-left: auto;
       text-align: right; }
     .main-container-grid .main .main__splitted .main__splitted--image {
-      width: 100%; }
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 13em; }
 
 .main-container-grid footer {
-  background-color: white;
+  background-color: #ffffff;
   overflow: hidden;
-  border-width: 5px;
+  border-width: .3em;
   border-style: groove;
   margin: auto;
   width: 60%;
   padding: 10px; }
   .main-container-grid footer .footer__p {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1em;
     float: left; }
 
 .social-media .social-media--ico {
-  width: 45px;
-  height: 30px;
-  padding-left: 15px; }
+  width: 2.3em;
+  height: 2.12em;
+  padding-left: 0.3em; }
 
 .video-container {
   margin: auto;
   width: 60%;
   padding: 10px;
-  width: 700px;
-  height: 500px; }
+  width: 50em;
+  height: 35em; }
   .video-container iframe {
     width: 100%;
     height: 100%; }
@@ -169,7 +170,7 @@ footer {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    border-width: 5px;
+    border-width: .3em;
     border-style: groove; }
     .form-container form fieldset {
-      padding: 60px; }
+      padding: 5em; }
