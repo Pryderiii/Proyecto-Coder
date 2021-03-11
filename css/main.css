@@ -64,7 +64,8 @@ footer {
     .main-container-grid .news-container .news-container__newsletter .news-container__newsletter--image {
       float: left;
       height: 10em;
-      width: 10em; }
+      width: 10em;
+      object-fit: cover; }
     .main-container-grid .news-container .news-container__newsletter .news-container__newsletter--link {
       text-decoration: none;
       color: #000000; }
