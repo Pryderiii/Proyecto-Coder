@@ -2,17 +2,20 @@
 @import "mixin";
 
 .main-container-grid{
+    background-image: url("../images/back-pok.png");
+
     header{
         @include center;
         border-width:.3em; 
         border-style:groove;
-        background-color: #c90f0f;
-
+        background-color: #F36749;
+        
         .header__menu{
             overflow: hidden;
             display: flex;     
             flex-direction: row;
-            
+   
+
             .header__menu--icon{
                 height: 2.7em;
                 width: 2.7em;
@@ -28,7 +31,7 @@
                 display: block;
             }
             .header__menu--a:hover{
-                background-color: #ffffff;
+                background-color: #E04A4A;
                 color: #000000;
             }
         }
@@ -40,13 +43,13 @@
         margin-right: auto;
 
         tr:nth-child(even){
-            background-color: #f2f2f2;
+            background-color: #F3E7AF;
         }
 
         th{
             text-align: center;
             background-color: #000000;
-            color: #ffffff;
+            color: #F3E7AF;
         }
         tr{
             text-align: left;
@@ -88,7 +91,7 @@
 
     .main{
         @include center;
-        background-color: #ffffff;
+        background-color: #F3E7AF;
         border-width:.3em;  
         border-style:groove;
         display: flex;
@@ -106,13 +109,61 @@
             border-bottom-style: ridge;
             border-width: .3em;
             text-align: left;
+            background-color: #f5f5dc;
             
             h1{
                 font-size: Medium;
             }
+
+            .main__paragraph--child-img{
+                display: block;
+                width: 50%;
+                margin: auto;
+            }
+            .main__paragraph--child-img-wide{
+                display: block;
+                width: 80%;
+                margin: auto;
+            }
+
+            .main__paragraph__splitted{
+                display: flex;
+                flex-direction: row;
+                .main__paragraph__splitted--child-left{
+                    width: 50%;
+                    background-color: #f5f5dc;
+                    margin-right: auto;
+                    text-align: left;
+                }
+    
+                .main__paragraph__splitted--child-right{
+                    width: 50%;
+                    background-color: #f5f5dc;
+                    margin-left: auto;
+                    text-align: right;
+    
+                }
+    
+                .main__splitted--image{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 13em;
+    
+                }
+                .main__paragraph__splitted--child-img{
+                    width: 100%;
+                }
+            }
+
         }
         .main__paragraph--last{
+            @extend .main__paragraph;
             text-align: left;
+            background-color: #f5f5dc;
+            border-bottom: none;
+            border-bottom-style: none;
+            
         }
 
         .main__front{
@@ -142,7 +193,7 @@
             flex-direction: row;
             .main__splitted--child-left{
                 width: 50%;
-                background-color: #ffffff;
+                background-color: #F3E7AF;
                 border-width:.3em;  
                 border-style:groove;
                 margin-right: auto;
@@ -151,7 +202,7 @@
 
             .main__splitted--child-right{
                 width: 50%;
-                background-color: #ffffff;
+                background-color: #F3E7AF;
                 border-width:.3em;  
                 border-style:groove;
                 margin-left: auto;
@@ -170,7 +221,7 @@
     }
 
     footer{
-        background-color: #ffffff;
+        background-color: #F3CF49;
         overflow: hidden;
         border-width:.3em; 
         border-style:groove;
