@@ -9,3 +9,25 @@
     width: $width-center;
     padding: $padding-center;
 }
+
+@mixin center-movil(){
+    
+    $margin-center: auto;
+    $width-center: 90%;
+    $padding-center: 10px;
+
+    margin: $margin-center;
+    width: $width-center;
+    padding: $padding-center;
+}
+
+@mixin center-tb(){
+    
+    $margin-center: auto;
+    $width-center: 80%;
+    $padding-center: 10px;
+
+    margin: $margin-center;
+    width: $width-center;
+    padding: $padding-center;
+}

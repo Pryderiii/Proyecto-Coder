@@ -19,16 +19,21 @@
 
 </head>
 <body class="main-container-grid grid">
-    <header>
-        <div class="header__menu">
-            <img src="../images/ico.png" name="icon" class="header__menu--icon">
-            <a class="header__menu--a" href="../index.html">Inicio</a>
-            <a class="header__menu--a" href="mechanics.html">Meta actual</a>
-            <a class="header__menu--a" href="newletters.html">Noticias</a>
-            <a class="header__menu--a" href="comunity.html">Comunidad</a>
-            <a class="header__menu--a" href="contact.html">Contacto</a>
+    <nav class="header__menu">
+        <div class="header__menu__nav-movil">
+          <a id="header__menu__nav-movil--nav-boton" href="#!">
+            <span id="nav-boton" class="header__menu__nav-movil--button"><img class="header__menu__nav-movil--button--img" src="../images/ico.png" alt=""></span>
+          </a>
         </div>
-    </header>
+        <ul class="header__menu__nav-menu">
+            <img src="../images/ico.png" name="icon" class="header__menu--icon">
+            <li class="header__menu__nav-menu--menu-li"><a href="../index.html">Inicio</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="mechanics.html">Meta actual</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="newletters.html">Noticias</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="comunity.html">Comunidad</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
     <div class="main"> <!-- Divicion Principal - a centrar-->        
         <h1>Meta de la temporada</h1>
         <div class="main__paragraph">
@@ -69,7 +74,7 @@
                             <li><strong>Calyrex (En cualquiera de sus formas)</strong></li>
                         </ul>
                     </p>
-                    <img src="../images/calyrex_bond_2x.png" alt="Restricted" class="main__paragraph__splitted--child-img">
+                    <img src="../images/calyrex_bond_2x.png" alt="Restricted" class="main__paragraph__splitted--child-img to_hide">
 
                 </div>
                 
@@ -88,15 +93,15 @@
         <div class="main__paragraph">
             <h2>Pokemons mas utilizados en el meta ordenados del más usado al menos usado.</h3>
             <table  class="list-table" >
-                <tr>
-                    <th>Nombre</th>
+                <tr class="list-table--header">
+                    <th class="to_hide">Nombre</th>
                     <th>Sprite</th>
                     <th>Movimientos</th>
                     <th>Habilidades</th>
                     <th>Naturaleza</th>
                 </tr>
                 <tr>
-                    <td>Urshifu</td>
+                    <td class="to_hide">Urshifu</td>
                     <td><img src="#" alt="Urshifu Sprite" class="list-table--sprite"></td>
                     <td><ol>
                         <li>Wicked Blow</li>
@@ -113,7 +118,7 @@
                     </ol></td>
                 </tr>
                 <tr>
-                    <td>Rillaboom</td>
+                    <td class="to_hide">Rillaboom</td>
                     <td><img src="#" alt="Rillaboom Sprite" class="list-table--sprite"></td>
                     <td><ol>
                         <li>Grassy Glide</li>
@@ -133,7 +138,7 @@
                     </ol></td>
                 </tr>
                 <tr>
-                    <td>Tapu Fini</td>
+                    <td class="to_hide">Tapu Fini</td>
                     <td><img src="#" alt="TapuFini Sprite" class="list-table--sprite"></td>
                     <td><ol>
                         <li>Muddy Water</li>
@@ -171,6 +176,8 @@
                 <a href="#" class="social-media"><img src="../images/google-mas.png" class="social-media--ico"/></a>
                 <a href="#" class="social-media"><img src="../images/twitter.png" class="social-media--ico"/></a>
         </div>
+        <script type="text/javascript" src="../jscript/menu.js"></script>
+
     </footer>
 </body>
 </html>

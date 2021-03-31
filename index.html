@@ -13,22 +13,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
 
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
     </head>
+    
     <body class="main-container-grid grid">
-        <header>
-            <nav class="header__menu" id="main-navigation">
-                <img src="images/ico.png" name="icon" class="header__menu--icon">
-                <a class="header__menu--a" href="index.html">Inicio</a>
-                <a class="header__menu--a" href="pages/mechanics.html">Meta actual</a>
-                <a class="header__menu--a" href="pages/newletters.html">Noticias</a>
-                <a class="header__menu--a" href="pages/comunity.html">Comunidad</a>
-                <a class="header__menu--a" href="pages/contact.html">Contacto</a>
-            </nav>
-        </header>
+        <nav class="header__menu">
+            <div class="header__menu__nav-movil">
+              <a id="header__menu__nav-movil--nav-boton" href="#!">
+                <span id="nav-boton" class="header__menu__nav-movil--button"><img class="header__menu__nav-movil--button--img" src="./images/ico.png" alt=""></span>
+              </a>
+            </div>
+            <ul class="header__menu__nav-menu">
+                <img src="../images/ico.png" name="icon" class="header__menu--icon">
+                <li class="header__menu__nav-menu--menu-li"><a href="index.html">Inicio</a></li>
+                <li class="header__menu__nav-menu--menu-li"><a href="pages/mechanics.html">Meta actual</a></li>
+                <li class="header__menu__nav-menu--menu-li"><a href="pages/newletters.html">Noticias</a></li>
+                <li class="header__menu__nav-menu--menu-li"><a href="pages/comunity.html">Comunidad</a></li>
+                <li class="header__menu__nav-menu--menu-li"><a href="pages/contact.html">Contacto</a></li>
+            </ul>
+          </nav>
+       
+       
         <div class="main">
             <div class="main__front">
                 <div id="carro-portada" class="carousel slide" data-ride="carousel">
@@ -88,6 +97,7 @@
                 <a href="#" class="social-media"><img src="./images/google-mas.png" class="social-media--ico"/></a>
                 <a href="#" class="social-media"><img src="./images/twitter.png" class="social-media--ico"/></a>
             </div>
+            <script type="text/javascript" src="jscript/menu.js"></script>
         </footer>
     </body>
 </html>

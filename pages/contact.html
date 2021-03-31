@@ -17,22 +17,27 @@
 
 </head>
 <body class="main-container-grid grid">
-    <header>
-        <div class="header__menu">
-            <img src="../images/ico.png" name="icon" class="header__menu--icon">
-            <a class="header__menu--a" href="../index.html">Inicio</a>
-            <a class="header__menu--a" href="mechanics.html">Meta actual</a>
-            <a class="header__menu--a" href="newletters.html">Noticias</a>
-            <a class="header__menu--a" href="comunity.html">Comunidad</a>
-            <a class="header__menu--a" href="contact.html">Contacto</a>
+    <nav class="header__menu">
+        <div class="header__menu__nav-movil">
+          <a id="header__menu__nav-movil--nav-boton" href="#!">
+            <span id="nav-boton" class="header__menu__nav-movil--button"><img class="header__menu__nav-movil--button--img" src="../images/ico.png" alt=""></span>
+          </a>
         </div>
-    </header>
+        <ul class="header__menu__nav-menu">
+            <img src="../images/ico.png" name="icon" class="header__menu--icon">
+            <li class="header__menu__nav-menu--menu-li"><a href="../index.html">Inicio</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="mechanics.html">Meta actual</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="newletters.html">Noticias</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="comunity.html">Comunidad</a></li>
+            <li class="header__menu__nav-menu--menu-li"><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
     <div class="main"> <!-- Divicion Principal - a centrar-->
         <h1>No dudes en contactarnos</h1>
         <div class="form-container">
-            <form action="#" class="form-container{">
+            <form action="#" class="form-container">
                 <fieldset>
-                    <legend>Si tienes alguna duda o comentario</legend>
+                    <legend class="to_hide">Si tienes alguna duda o comentario</legend>
                     <label for="fname">Nombre:</label>
                     <input type="text" name="fname"><br><br>
                     <label for="femail">Email:</label>
@@ -40,7 +45,7 @@
                     <label for="news">Desea Recibir Newsletter:</label>
                     <input type="checkbox" name="news" id="chknews"><br><br>
                     <label for="comm">Comentarios:</label><br><br>
-                    <textarea name="comm" id="" cols="70" rows="10"></textarea>
+                    <textarea name="comm" class="form-container--text-area" rows="5"></textarea>
                     <br>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpiar">
@@ -57,6 +62,8 @@
             <a href="#" class="social-media"><img src="../images/google-mas.png" class="social-media--ico"/></a>
             <a href="#" class="social-media"><img src="../images/twitter.png" class="social-media--ico"/></a>
         </div>
+        <script type="text/javascript" src="../jscript/menu.js"></script>
+
     </footer>
 </body>
 </html>
